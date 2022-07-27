@@ -1,6 +1,6 @@
 # FreeCodeCamp
 ### Cursos do [freeCodeCamp.org](https://www.freecodecamp.org/)
 
-***CatPhotoApp:***
+* ***CatPhotoApp:***
 Design responsivo para web
 
