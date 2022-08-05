@@ -1,0 +1,93 @@
+h1 {
+  font-size: 35px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+#description {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+h1, #description {
+  text-align: center;
+  font-family: Georgia, Times New Roman;
+  color: white;
+}
+
+.separator {
+  width: 90%;
+  background-color: 		#228B22;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+  max-width: 600px;
+}
+
+label, p {
+  font-size: 18px;
+  font-family: Verdana, Helvetica;
+  display: block;
+  margin: 25px 0px 5px auto;
+  color: white;
+}
+
+#name, #email, #number, #dropdown {
+  font-size: 16px;
+  font-family: Verdana, Helvetica;
+  width: 100%;
+  min-height: 2em;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  padding-left: 10px;
+}
+
+#lb-recommend {
+  margin-top: 10px;
+}
+
+input[type=radio] {
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+
+#lb-checkbox {
+  margin-top: 10px;
+}
+
+.clue {
+  font-family: Verdana, Helvetica;
+  font-size: 15px;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+
+textarea {
+  font-size: 16px;
+  font-family: Verdana, Helvetica;
+  width: 100%;
+  height: 120px;
+  border: none;
+  color: black;
+}
+
+#submit {
+  width: 100%;
+  margin: 1em auto;
+  height: 2.5em;
+  font-size: 19px;
+  color: white;
+  background-color: red;
+  border: none;
+  margin-top: 35px;
+}
+
+body {
+  background-color: #363636;
+}
