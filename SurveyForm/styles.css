@@ -88,8 +88,11 @@ textarea {
   margin-top: 35px;
 }
 
-body {      
-     align-items: center;
+body {   
+    height: 150vh;
+    width: 100vw;
+  
+    align-items: center;
     
     background: url(img/binary.png);
   }
