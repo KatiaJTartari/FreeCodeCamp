@@ -91,7 +91,7 @@ textarea {
 body {   
     position: relative;
     height: 150vh;
-    width: 100vw;
+    width: 80vw;
     
     display: flex;
     align-items: center;
