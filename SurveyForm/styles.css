@@ -24,7 +24,7 @@ h1, #description {
   margin-right: auto;
   padding: 35px;
   max-width: 600px;
-  position: center;
+  align-items: center;
 }
 
 label, p {
