@@ -89,10 +89,13 @@ textarea {
 }
 
 body {   
+    position: relative;
     height: 150vh;
     width: 100vw;
-  
+    
+    display: flex;
     align-items: center;
+    justify-content: center;
     
     background: url(img/binary.png);
   }
