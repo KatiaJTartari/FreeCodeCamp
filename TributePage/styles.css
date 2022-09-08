@@ -1,0 +1,52 @@
+#image {
+  max-width: 100%;
+  max-height: 580px;
+  height: auto;
+  width: auto;
+}
+
+#title, #p1, h3{
+  text-align: center;
+}
+
+#img-div{
+  text-align: center;
+  display: block;
+  background-color: White;
+}
+
+blockquote{
+  padding: 30px 325px 30px 325px;
+}
+
+#main{
+  background-color: Gainsboro;
+  padding: 20px 0 20px 0;
+}
+
+#img-caption{
+  padding: 20px 0 20px 0;
+}
+
+body{
+  padding: 20px 0 20px 0;
+  font-family: Verdana, Noto Sans;
+  color: #363636;
+  font-size: 14.5px;
+}
+
+#headline{
+  padding: 30px 0 30px 0;
+}
+
+ul{
+  margin: 0 350px 0 350px;
+}
+
+li{
+  margin-top: 20px;
+}
+
+a{
+  color: SteelBlue;
+}
