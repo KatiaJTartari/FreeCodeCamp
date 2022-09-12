@@ -146,11 +146,15 @@
             function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the
             function (or global context) within which x is declared, not the block, which in this case is an if statement.
           </p>
-          <code>if (true) { var x = 5; } console.log(x); // 5</code>
+          <code>
+            if (true) { var x = 5; } console.log(x); // 5
+          </code>
           <p>
             This behavior changes, when using the let declaration introduced in ECMAScript 2015.
           </p>
-          <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>       
+          <code>
+            if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined
+          </code>       
         </article>
       </section>
       
@@ -187,11 +191,15 @@
           <p>
             You cannot declare a constant with the same name as a function or variable in the same scope. For example:
           </p>
-          <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+          <code>
+            // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
             WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-            //statements }</code>
+            //statements }
+          </code>
           However, object attributes are not protected, so the following statement is executed without problems.
-          <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
+          <code>
+            const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+          </code>
         </article>
       </section>
       
@@ -251,7 +259,9 @@
           It is advisable to not use simple assignments in a conditional expression, because the assignment can be confused with equality when
           glancing over the code. For example, do not use the following code: <code>if (x = y) { /* statements here */ }</code> If you need to use
           an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:
-          <code>if ((x = y)) { /* statements here */ }</code>
+          <code>
+            if ((x = y)) { /* statements here */ }
+          </code>
         </article>
       </section>
       
@@ -299,12 +309,16 @@
           <p>
             For example, the following code defines a simple function named square:
           </p>
-          <code>function square(number) { return number * number; }</code>
+          <code>
+            function square(number) { return number * number; }
+          </code>
           <p>
             The function square takes one argument, called number. The function consists of one statement that says to return the argument 
             of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.
           </p>
-          <code>return number * number;</code>
+          <code>
+            return number * number;
+          </code>
           <p>
             Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but 
             if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
