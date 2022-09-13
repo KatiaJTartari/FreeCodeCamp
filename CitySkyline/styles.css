@@ -1,4 +1,5 @@
- :root {    /* Colors of buildings and windows for the day */  
+/* Colors of buildings and windows for the day */  
+:root {     
   --building-color1: #aa80ff;
   --building-color2: #66cc99;
   --building-color3: #cc6699;
@@ -42,7 +43,8 @@ body {
   justify-content: space-evenly;
 }
 
-.sky {    /* Sky colors for the day */
+/* Sky colors for the day */
+.sky {    
   background: radial-gradient(
       closest-corner circle at 15% 15%,
       #ffcf33,
@@ -300,11 +302,12 @@ body {
 
 /* 
 When resizing the window changes from day to night:
-   (changes to night when window is <= 1000px) and
-   (changes to day when window is >= 1000px) 
+ (changes to night when window is <= 1000px) and
+ (changes to day when window is >= 1000px) 
 */
 @media (max-width: 1000px) {
-  :root {     /* Colors of buildings and windows for the night */
+  /* Colors of buildings and windows for the night */
+  :root {     
     --building-color1: #000;
     --building-color2: #000;
     --building-color3: #000;
@@ -314,7 +317,8 @@ When resizing the window changes from day to night:
     --window-color3: #777;
     --window-color4: #777;
   }
-  .sky {    /* Sky colors for the night */
+  /* Sky colors for the night */
+  .sky {    
     background: radial-gradient(
         closest-corner circle at 15% 15%,
         #ccc,
