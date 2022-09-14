@@ -97,13 +97,13 @@ code {
   color: black;
   text-align: left;
   white-space: pre-wrap;
-  position: relative  !important;
+  position: relative;
   word-break: normal;
   width: 79%;
   max-width: 100%;
   line-height: 2;
   padding: 13px;
-  /*margin: 11px;*/
+  margin: 11px;
   margin-left: 23px;
   border-radius: 7px;
  }
