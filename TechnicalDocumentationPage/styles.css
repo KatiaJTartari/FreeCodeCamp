@@ -48,7 +48,7 @@ header {
 
 #main-doc header {
   text-align: left;
-  margin: auto !important;
+  margin: auto;
 }
 
 #main-doc a {
@@ -103,9 +103,10 @@ code {
   max-width: 100%;
   line-height: 2;
   padding: 13px;
-  margin: 11px;
+  /*margin: 11px;*/
   margin-left: 23px;
   border-radius: 7px;
+  margin: auto;
 }
 
 footer {
