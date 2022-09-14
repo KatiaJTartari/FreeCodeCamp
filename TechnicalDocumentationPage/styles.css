@@ -46,7 +46,7 @@ header {
   padding: 23px;
 }
 
-#main-doc header* {
+#main-doc header * {
   text-align: left;
   margin: auto;
 }
