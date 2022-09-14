@@ -95,8 +95,8 @@ code {
   display: block;
   background-color: #EEEEEE;
   color: black;
-  text-align: left !important;
-  white-space: pre-wrap;
+  text-align: left;
+  white-space: pre-wrap !important;
   position: relative;
   word-break: normal;
   width: 79%;
