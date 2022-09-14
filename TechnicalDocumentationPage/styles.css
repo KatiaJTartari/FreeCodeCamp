@@ -95,7 +95,7 @@ code {
   display: block;
   background-color: #EEEEEE;
   color: black;
-  text-align: left;
+  text-align: left !important;
   white-space: pre-wrap;
   position: relative;
   word-break: normal;
@@ -106,8 +106,7 @@ code {
   /*margin: 11px;*/
   margin-left: 23px;
   border-radius: 7px;
-  margin: auto;
-}
+ }
 
 footer {
   position: fixed;
