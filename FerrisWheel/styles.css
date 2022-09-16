@@ -1,3 +1,7 @@
+body{
+  background-color: silver;
+}
+
 .wheel {
   border: 2px solid black;
   border-radius: 50%;
